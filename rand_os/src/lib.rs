@@ -304,6 +304,7 @@ mod_use!(cfg(target_os = "freebsd"), freebsd);
 mod_use!(cfg(target_os = "fuchsia"), fuchsia);
 mod_use!(cfg(target_os = "haiku"), dragonfly_haiku_emscripten);
 mod_use!(cfg(target_os = "ios"), macos);
+mod_use!(cfg(target_os = "tvos"), macos);
 mod_use!(cfg(target_os = "linux"), linux_android);
 mod_use!(cfg(target_os = "macos"), macos);
 mod_use!(cfg(target_os = "netbsd"), netbsd);
@@ -370,6 +371,7 @@ mod imp {
     target_os = "fuchsia",
     target_os = "haiku",
     target_os = "ios",
+    target_os = "tvos",
     target_os = "linux",
     target_os = "macos",
     target_os = "netbsd",
